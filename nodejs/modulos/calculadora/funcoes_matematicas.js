@@ -17,15 +17,10 @@ function dividir(a, b) {
     return a / b;
 }
 
-function idade (a) {
-    return 2025 - a;
-}
-
 module.exports = {
     somar,
     subtrair,
     multiplicar,
-    dividir,
-    idade
+    dividir
 };
 

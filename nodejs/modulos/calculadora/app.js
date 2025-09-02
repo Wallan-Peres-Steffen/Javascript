@@ -1,17 +1,17 @@
-const funcoesMatematica = require('./funcoes_matematicas');
+const funcoes_matematica = require('./funcoes_matematicas');
 
-// Exemplo de uso:
-const resultadoSoma = funcoesMatematica.somar(5, 3);
-console.log(`Resultado da soma: ${resultadoSoma}`);
+const calculadoraidade = require('./calculadora_idade');
 
-const resultadoSubtracao = funcoesMatematica.subtrair(10, 4);
-console.log(`Resultado da subtração: ${resultadoSubtracao}`);
 
-const resultadoMultiplicacao = funcoesMatematica.multiplicar(6, 7);
-console.log(`Resultado da multiplicação: ${resultadoMultiplicacao}`);
 
-const resultadoDivisao = funcoesMatematica.dividir(20, 5);
-console.log(`Resultado da divisão: ${resultadoDivisao}`);
+console.log(`Resultado da soma: ${funcoes_matematica.somar(1, 1)}`);
 
-const resultadoIdade = funcoesMatematica.idade(1990);
-console.log(`Resultado da idade: ${resultadoIdade}`);
+console.log(`Resultado da subtração: ${funcoes_matematica.subtrair(8, 4)}`);
+
+console.log(`Resultado da multiplicação: ${funcoes_matematica.multiplicar(2, 3)}`);
+
+console.log(`Resultado da divisão: ${funcoes_matematica.dividir(32, 4)}`);
+
+
+
+console.log(calculadoraidade.idade('Sophia', 2010, 2025));
