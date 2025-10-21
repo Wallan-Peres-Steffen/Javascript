@@ -6,16 +6,13 @@
   <link rel="stylesheet" href="../public/stylesheets/estilo.css">
 </head>
 <body>
-  <h1>Informe seu nome, idade e como está se sentindo:</h1>
+  <h1>Informe seu nome e idade:</h1>
   <form action="/saudacao" method="POST">
     <label for="nome">Nome:</label>
     <input type="text" id="nome" name="nome" required><br><br>
 
     <label for="idade">Idade:</label>
     <input type="number" id="idade" name="idade" required><br><br>
-
-    <label for="sentimento">Como você está?:</label>
-    <input type="text" id="sentimento" name="sentimento" required><br><br>
 
     <button type="submit">Enviar</button>
   </form>

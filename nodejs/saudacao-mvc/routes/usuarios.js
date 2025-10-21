@@ -1,9 +1,9 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET home page. */
+/* GET users listing. */
 router.get('/', function(req, res, next) {
-  res.render('index', { nome: 'Joédio' });
+  res.send('<h1>Bem-vindo à rota usuários!</h1>');
 });
 
 module.exports = router;
