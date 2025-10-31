@@ -1,5 +1,4 @@
-const usuarioController = require("../controllers/usuarioController");
-
+const usarioModel = require("../models/usuarioModel");
 module.exports = {
 
     index: (req, res) => {
